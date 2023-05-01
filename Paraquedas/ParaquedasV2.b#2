@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.001" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.15" altunitdist="mm" altunit="mm"/>
@@ -187,7 +187,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6ZGlzY2VudGU3MA" projecturn="a.YnVzaW5lc3M6ZGlzY2VudGU3MCMyMDIyMDIxNzQ5ODU5MDQ4MQ" f3durn="urn:adsk.wipprod:dm.lineage:Qk05XfmRR-CpxKf1axuLJg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="a1c7c048-0564-486f-8e21-f6d0c0ff6fb1" lastsyncedrevisionid="a1c7c048-0564-486f-8e21-f6d0c0ff6fb1" lastboardhashguid="dd0ad6bb-545f-da46-2583-5e57f7a84253" lastpushedtime="2023-03-13T17:11:34Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6ZGlzY2VudGU3MA" projecturn="a.YnVzaW5lc3M6ZGlzY2VudGU3MCMyMDIyMDIxNzQ5ODU5MDQ4MQ" f3durn="urn:adsk.wipprod:dm.lineage:gVOCzK0mSPuoSxDCyUwvfQ" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="e99efd4c-5a6b-41ab-b843-ffb04d3269ce" lastsyncedrevisionid="e99efd4c-5a6b-41ab-b843-ffb04d3269ce" lastboardhashguid="078e633a-149b-9a82-69ec-d3e79aab1bc9" lastpushedtime="2022-07-22T15:39:06Z" linktopcb3d="true"/>
 <plain>
 <wire x1="101.05946875" y1="96.054784375" x2="54.06926875" y2="95.953184375" width="0" layer="20"/>
 <wire x1="54.06926875" y1="95.953184375" x2="54.06926875" y2="140.953184375" width="0" layer="20"/>

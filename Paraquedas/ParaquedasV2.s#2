@@ -7693,9 +7693,9 @@ Source: www.kingbright.com</description>
 <attribute name="LAST_DATE_TIME" x="313.69" y="121.92" size="2.286" layer="94"/>
 <attribute name="SHEET" x="327.025" y="116.84" size="2.54" layer="94"/>
 </instance>
-<instance part="Q3" gate="NMOS" x="279.4" y="213.36" smashed="yes">
-<attribute name="NAME" x="284.48" y="213.36" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="284.48" y="210.82" size="1.778" layer="96" font="vector"/>
+<instance part="Q3" gate="NMOS" x="287.02" y="241.3" smashed="yes">
+<attribute name="NAME" x="292.1" y="241.3" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="292.1" y="238.76" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="J3" gate="G$1" x="299.72" y="228.6" smashed="yes">
 <attribute name="NAME" x="300.99" y="228.838" size="1.778" layer="95"/>
@@ -7732,8 +7732,8 @@ Source: www.kingbright.com</description>
 <instance part="P+1" gate="VCC" x="205.74" y="170.18" smashed="yes" rot="R180">
 <attribute name="VALUE" x="208.28" y="172.72" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="P+2" gate="VCC" x="203.2" y="215.9" smashed="yes" rot="R180">
-<attribute name="VALUE" x="205.74" y="218.44" size="1.778" layer="96" rot="R270"/>
+<instance part="P+2" gate="VCC" x="195.58" y="215.9" smashed="yes" rot="R180">
+<attribute name="VALUE" x="198.12" y="218.44" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="IC1" gate="C" x="226.06" y="210.82" smashed="yes">
 <attribute name="NAME" x="228.6" y="213.995" size="1.778" layer="95"/>
@@ -7795,7 +7795,7 @@ Source: www.kingbright.com</description>
 <wire x1="279.4" y1="220.98" x2="279.4" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="NMOS" pin="S"/>
 <wire x1="279.4" y1="205.74" x2="281.94" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="205.74" x2="281.94" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="205.74" x2="289.56" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="276.86" y1="205.74" x2="279.4" y2="205.74" width="0.1524" layer="91"/>
 <junction x="279.4" y="205.74"/>
@@ -7842,7 +7842,7 @@ Source: www.kingbright.com</description>
 <net name="SKIB1" class="0">
 <segment>
 <pinref part="Q3" gate="NMOS" pin="G"/>
-<wire x1="274.32" y1="210.82" x2="264.16" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="238.76" x2="264.16" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="210.82" x2="264.16" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="205.74" x2="266.7" y2="205.74" width="0.1524" layer="91"/>
@@ -7913,7 +7913,7 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <pinref part="Q1" gate="G$1" pin="E"/>
-<wire x1="203.2" y1="218.44" x2="203.2" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="218.44" x2="203.2" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="220.98" x2="208.28" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7999,7 +7999,7 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="J3" gate="G$1" pin="2"/>
 <pinref part="Q3" gate="NMOS" pin="D"/>
-<wire x1="281.94" y1="218.44" x2="281.94" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="246.38" x2="281.94" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="226.06" x2="284.48" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="284.48" y1="226.06" x2="294.64" y2="226.06" width="0.1524" layer="91"/>
